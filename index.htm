@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SasaPetricic</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="body1">
+
+        <section class="hero-fon">
+            
+            
+                <a href="page2.html" class="main-name"></a>
+                
+            
+
+        </section>
+        <script>
+            function changeBg(){
+                  const images = [
+                  'url("./images/sasha1.jpg")',  
+                  'url("./images/sasha2.jpg")',
+                  'url("./images/sasha3.jpg")',
+                  'url(".images/sasha4.jpg")',
+                  'url("./images/sasha5.jpg")',
+                  'url("./images/sasha6.jpg")',
+                  'url("./images/sasha7.jpg")',
+                  'url("./images/sasha8.jpg")',
+            ]
+
+            const section = document.querySelector('section')
+            const bg = images[Math.floor(Math.random() * images.length)];
+            section.style.backgroundImage = bg;
+            
+            }
+            setInterval(changeBg, 2500)
+            
+        </script>
+</body>
+</html>
