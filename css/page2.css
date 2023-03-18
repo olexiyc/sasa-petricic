@@ -70,8 +70,8 @@ a{
 .country-list{
     
     padding-right: 150px;
-    padding-left: 750px;
-    
+    padding-left: 0px;
+    margin-left: 750px;
     
     
 }
@@ -116,18 +116,18 @@ a{
     width: 400px;
     height: 400px;
     top: 20%;
-left: 30%;
+    left: 30%;
    
     
 }
 
 .country-item:hover .image-hover{ 
-display:block; 
+    display:block; 
 
-position: absolute;
+    position: absolute;
 
-transition: 2s;
-}
+    transition: 2s;
+    }
 
 .country-item:focus .image-hover{ 
     display:block; 
