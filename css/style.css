@@ -1,90 +1,68 @@
-h1,
-h2,
-h3,
-p{
-    margin-top: 0;
-    margin-bottom: 0;}
 
-ul{
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-
+body,html {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100vh;
+font-family: sans-serif;
 }
-img{
-    display: block;
-}
-button{
-    cursor: pointer;
-}
-a{
-    text-decoration: none;}
-
-/* header */
-.container-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: none;
-}
-.nav-list{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-.nav-link{
-    color: grey;
-}
-
-
-
-/* PAGE 1 */
-
- .body1{
-    background: url('../images/sasha1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100%;
-  width: 100%;
-  
-} 
-
-section{
-    position: absolute;
-    top: 0;
-    left: 0;
+.section-top{
     width: 100%;
     height: 100%;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/sasha1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  
-}
-
-section a, p
-{
-    font-size: 55px;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-    background:  white;
-    opacity: calc(70%);
-    padding: 20px 40px;
+    text-align: center;
+    justify-content: center;
+    animation: change 20s infinite ease-in-out;
     
 }
+
+.linkpage2{
+    text-align: center;
+    display: block;
+    opacity: 100;
+    margin-top: 10%;
+    opacity: 0;
+    font-size: 60px;
     
-.main-name{
-    font-family: 'Josefin Sans';
-    margin-bottom: 30%;
-    width: 250px;
-    height: 70px;
-    opacity: 0%;
 }
 
 
+@keyframes change{ 
+    0%
+    {
+        background-image: url(../images/sasha1.jpg);
+    }
+    15%
+    {
+        background-image: url(../images/sasha2.jpg);
+    }
+    25%
+    {
+        background-image: url(../images/sasha3.jpg);
+    }
+    40%
+    {
+        background-image: url(../images/sasha4.jpg);
+    }
+    55%
+    {
+        background-image: url(../images/sasha5.jpg);
+    }
+    70%
+    {
+        background-image: url(../images/sasha6.jpg);
+    }
+    85%
+    {
+        background-image: url(../images/sasha7.jpg);
+    }
+    100%
+    {
+        background-image: url(../images/sasha8.jpg);
+    }
+};
