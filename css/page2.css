@@ -107,7 +107,7 @@ a{
     z-index: 1;
     transition: 1s;
     width: 28%;
-    height: 50%;
+    
     top: 20%;
     left: 30%;
    
@@ -124,17 +124,14 @@ a{
     }
 
 .image-hover1{
-display:block; 
+display:flex; 
 width: 28%;
-height: 50%;
+
 position: absolute;
 top: 20%;
 left: 30%;
-z-index: 1;
-transition: 1s;
-    
-
-}
+transition: 1s;   
+};
 
 
 
