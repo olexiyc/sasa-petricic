@@ -46,9 +46,16 @@ a{
 
 
 .h1page2{
-    position: absolute;  
+    padding-right: 10%;
+    padding-top: 30px;
     text-align: center;
+    
 
+}
+.page2-span{
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:rgba(36, 35, 35, 0.753);
 }
 
 .headertext{
@@ -56,7 +63,7 @@ a{
     letter-spacing: 0.1cm;
 }
 .linkpage1{
-    font-size: 36px;
+    font-size: 24px;
     color: black;
     font-family: 'Josefin Sans';
     letter-spacing: 0.1cm;
@@ -106,9 +113,9 @@ a{
     display: none;
     z-index: 1;
     transition: 1s;
-    width: 28%;
+    width: 25%;
     
-    top: 20%;
+    top: 25%;
     left: 30%;
    
     
@@ -125,11 +132,11 @@ a{
 
 .image-hover1{
 display:flex; 
-width: 28%;
+width: 25%;
 
 position: absolute;
-top: 20%;
-left: 30%;
+top: 25%;
+left: 32%;
 transition: 1s;   
 };
 

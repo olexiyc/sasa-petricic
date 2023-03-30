@@ -61,6 +61,12 @@ a{
 
 }
 
+.bio-span{
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:rgba(36, 35, 35, 0.753);
+}
+
 .bio-text-div{
 text-align:center;
 margin-top: 20px;
