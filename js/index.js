@@ -18,8 +18,3 @@ section.style.backgroundImage = bg;
 setInterval(changeBg, 2500);
 
 
-if(1>2){
-    console.log('yes');
-}else{
-    console.log('no')
-}
