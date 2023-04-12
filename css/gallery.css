@@ -78,7 +78,7 @@ body {
     box-sizing: border-box;
   }
   .row{
-    padding-left: 10%;
+    padding-left: 12%;
   }
   .row > .column {
     padding: 0 8px;
@@ -103,7 +103,7 @@ body {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 30px;
     left: 0;
     top: 0;
     width: 100%;
@@ -118,7 +118,7 @@ body {
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    width: 90%;
+    width: 75%;
     max-width: 1200px;
   }
   
@@ -213,3 +213,11 @@ body {
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+    figcaption {
+      background-color: black;
+      color: white;
+      font-style: italic;
+      padding: 2px;
+      text-align: center;
+    }
